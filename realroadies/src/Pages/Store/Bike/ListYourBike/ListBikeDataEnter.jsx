@@ -26,7 +26,7 @@ const ListBikeDataEnter = () => {
     description: '',
     rentPrice: '',
     sellPrice: '',
-    checkbox: ''
+    checkbox: '',
   });
 
   const manufacturers = [
