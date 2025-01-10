@@ -1,0 +1,473 @@
+
+.about-container {
+    display: flex;
+    background-color: #ffffff;
+    position: relative;
+    background-color: black;
+    
+  }
+  .abuot-heading{
+    font-size: 50px;
+    font-weight: 700;
+    padding-left: 20px;
+  }
+  .about-content {
+    display: flex;
+    flex-direction: column;
+    padding-top: 10px;
+    padding-left: 40px;
+    color: #ffffff;
+    float: left;
+    justify-content: justify;
+    text-align: left;
+    
+  }
+  .about-mainimg{
+    width: 100%;
+    height: 60vh;
+    object-fit: cover;
+    float: right;
+    padding-top: px;
+    
+  }
+  .about-head{
+    font-size: 30px;
+    text-align: left;
+    position: relative;
+    padding-left: 40px;
+    padding-top: 10px;
+    gap: 1px;
+
+  }
+  .head1{
+    font-size: 40px;
+    font-weight: bold;
+    text-align: left;
+    position: relative;
+    padding-left: 120px;
+    
+  }
+  .head2{
+    font-size: 100px;
+     text-align: left;
+    position: relative;
+    padding-left: 120px;
+    padding-top: 10px;
+  }
+  .head2-0{
+    color: #FFDD00;
+  }
+  
+  .head3{
+ position: flex;
+    font-size: 60px;
+    font-weight: bold;
+    text-align: left;
+    position: relative;
+    padding-left: 120px;
+    
+  }
+  .head3-0{
+    color: #FFDD00;
+  }
+  .head4{
+    font-size: 30px;
+    text-align: left;
+    position: relative;
+    padding-left: 120px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  
+  .about-app-img{
+    display: flex;
+   width: 150px;
+   border: #f5f5f5 1px solid;
+   border-radius: 15px;
+   position: absolute;
+   left: 800px;
+   top: 500px;
+
+
+   
+  }
+   
+
+.about-playstore-img{
+    display: flex;
+    width: 150px;
+    position: absolute;
+    left: 700px;
+    top: 710px;
+
+    
+
+
+    
+}
+.about-appstore-img{
+    display: flex;
+    width: 150px;
+    position: absolute;
+    left: 900px;
+    top: 710px;
+   
+   
+}
+.about-gif1{
+    display: flex;
+    width: 70vw;
+    padding-bottom: 20px;
+padding-left: 400px;;
+}
+.about-ex1-head{
+    padding-left: 20px;
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+    align-items: center;
+    padding-bottom: 20px;
+
+}
+.about-ex1{
+    font-size: 30px;
+    text-align: left;
+padding-left: 50px;
+padding-bottom: 20px;
+}
+
+.about-gif2{
+    display: flex;
+    width: 70vw;
+    padding-bottom: 20px;
+padding-left: 400px;;
+}
+.about-ex2-head{
+    padding-left: 20px;
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+    align-items: center;
+    padding-bottom: 20px;
+}
+.about-ex2{
+    font-size: 30px;
+    text-align: left;
+padding-left: 50px;
+padding-bottom: 20px;
+}
+.about-fas-icon {
+    font-size: 1.5rem;
+    color: #FFDD00;
+   
+}
+/* about contact arae */
+/* .contact-aboutarea{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    gap: 20px;
+  }
+  .con-abouthead{
+    position: relative;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 700;
+    color: #FFDD00;
+    text-align: left;
+    padding-top: 20px;
+    border-bottom: #ffffff 1px solid;
+    
+  }
+  .contact-aboutadd{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    gap: 20px;
+    color: #ffffff;
+    
+  }
+  .contact-aboutadd a {
+    text-decoration: none;
+    color: inherit;
+    transition: color 0.3s ease;
+  }
+  
+  
+  
+  .contact-aboutadd p {
+    margin: 10px 0;
+  }
+  /* about social-icons 
+.social-abouticons{
+    display: flex;
+     width: 100%;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+.social-abouticons a{
+  text-decoration: none;
+    color: #ffffff;
+    font-size: 40px;
+    font-weight: 700;
+    text-align: center;
+    
+    gap: 20px;
+} */
+
+
+@media screen and (max-width: 1024px) {
+  .head1 {
+    font-size: 32px;
+    padding-left: 60px;
+  }
+  
+  .head2 {
+    font-size: 80px;
+    padding-left: 60px;
+  }
+  
+  .head3 {
+    font-size: 48px;
+    padding-left: 60px;
+  }
+  
+  .about-app-img {
+    left: 60%;
+    position: relative;
+    top: 600px;
+    width: 100px;
+  }
+  
+  .about-playstore-img,
+  .about-appstore-img {
+    width: 80px;
+    
+    top: 650px;
+  }
+  
+  .about-playstore-img {
+    left: 55%;
+  }
+  
+  .about-appstore-img {
+   left: 75%;
+  }
+  
+  .about-gif1,
+  .about-gif2 {
+    width: 85vw;
+    padding-left: 100px;
+  }
+  .contact-aboutarea {
+    padding: 30px 15px;
+  }
+  
+  .con-abouthead {
+    font-size: 32px;
+  }
+  
+  .social-abouticons {
+    gap: 15px;
+  }
+  
+  .social-abouticons a {
+    font-size: 35px;
+  }
+}
+@media screen and (max-width: 980px) {
+  .head1 {
+    font-size: 36px;
+    padding-left: 40px;
+  }
+  
+  .head2 {
+    font-size: 90px;
+    padding-left: 40px;
+  }
+  
+  .head3 {
+    font-size: 52px;
+    padding-left: 40px;
+  }
+  
+  .about-app-img {
+    left: 69%;
+    position: absolute;
+    top: 500px;
+    width: 120px;
+  }
+  
+  .about-playstore-img,
+  .about-appstore-img {
+    width: 100px;
+    top: 680px;
+  }
+  
+  .about-playstore-img {
+    left: 60%;
+  }
+  
+  .about-appstore-img {
+    left: 80%;
+  }
+  
+  .about-gif1,
+  .about-gif2 {
+    width: 80vw;
+    padding-left: 200px;
+  }
+
+  .contact-aboutarea {
+    padding: 35px 20px;
+  }
+  
+  .social-abouticons {
+    gap: 18px;
+  }
+  
+  .social-abouticons a {
+    font-size: 38px;
+  }
+}
+
+
+@media screen and (max-width: 768px) {
+  .about-container {
+    flex-direction: column;
+  }
+  
+  .about-content {
+    padding: 20px;
+  }
+  
+  .head1 {
+    font-size: 24px;
+    padding-left: 20px;
+  }
+  
+  .head2 {
+    font-size: 60px;
+    padding-left: 20px;
+  }
+  
+  .head3 {
+    font-size: 36px;
+    padding-left: 20px;
+  }
+  
+  .head4 {
+    font-size: 24px;
+    padding-left: 20px;
+  }
+  
+  .about-mainimg {
+    height: 40vh;
+  }
+  
+  .about-app-img {
+    position: static;
+    margin: 20px auto;
+  }
+  
+  .about-playstore-img,
+  .about-appstore-img {
+    position: static;
+    margin: 10px auto;
+  }
+  
+  .about-gif1,
+  .about-gif2 {
+    width: 95vw;
+    padding-left: 10px;
+  }
+  
+  .about-ex1-head,
+  .about-ex2-head {
+    font-size: 36px;
+  }
+  
+  .about-ex1,
+  .about-ex2 {
+    font-size: 24px;
+    padding: 10px 20px;
+  }
+  
+  .contact-aboutarea {
+    padding: 25px 10px;
+  }
+  
+  .con-abouthead {
+    font-size: 28px;
+  }
+  
+  .contact-aboutadd {
+    text-align: center;
+    gap: 15px;
+  }
+  
+  .social-abouticons {
+    gap: 12px;
+  }
+  
+  .social-abouticons a {
+    font-size: 30px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .head2 {
+    font-size: 48px;
+  }
+  
+  .head3 {
+    font-size: 28px;
+  }
+  
+  .about-ex1-head,
+  .about-ex2-head {
+    font-size: 28px;
+  }
+  
+  .about-ex1,
+  .about-ex2 {
+    font-size: 20px;
+  }
+  .about-playstore-img{
+    position: absolute;
+    top: 1100px;
+    left: 120px;
+  }
+  .about-appstore-img{
+    position: absolute;
+    top: 1100px;
+    left: 230px;
+  }
+  .contact-aboutarea {
+    padding: 20px 8px;
+  }
+  
+  .con-abouthead {
+    font-size: 24px;
+  }
+  
+  .contact-aboutadd {
+    gap: 12px;
+  }
+  
+  .social-abouticons {
+    gap: 10px;
+  }
+  
+  .social-abouticons a {
+    font-size: 25px;
+  }
+}

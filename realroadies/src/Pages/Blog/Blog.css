@@ -1,0 +1,150 @@
+.blog-container{
+    padding-top: 80px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.blog-container h1{
+    padding-left: 20px;
+}
+.blog-item {
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+    width: 100%;
+    position: relative;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 15px;
+    padding-right: 10px;
+    
+}
+.ibw-blog{
+    background-color: rgb(45, 45, 45);
+    
+}
+
+.ibw-blog-img{
+    position: relative;
+    width: 350px;
+    height: 250px;
+    padding: 20px;
+    
+}
+.ibw-head{
+    position: relative;
+    padding-left: 20px;
+    width: 330px;
+    text-align: left;
+}
+
+.ibw-para{
+    padding-left: 20px;
+    padding-bottom: 20px;
+    width: 330px;
+    text-align: justify;
+}
+.ibw-para span{
+    font-weight: 600;
+}
+.readmore-blog{
+    font-weight: 500;
+    color: rgb(63, 63, 223);
+}
+.helmet-blog{
+    background-color: rgb(45, 45, 45);
+}
+.helmet-blog-img{
+    position: relative;
+    width: 350px;
+    height: 245px;
+    padding: 20px;
+
+}
+.helmet-head{
+    position: relative;
+    padding-left: 20px;
+    width: 330px;
+    text-align: left;
+}
+.helmet-para{
+    padding-left: 20px;
+    padding-bottom: 20px;
+    width: 330px;
+    text-align: justify;
+}
+.bikemaintain-blog{
+    background-color: rgb(45, 45, 45);
+}
+.bikemaintain-blog-img{
+    position: relative;
+    width: 350px;
+    height: 245px;
+    padding: 20px;
+}
+.bikemaintain-head{
+    position: relative;
+    padding-left: 20px;
+    width: 330px;
+    text-align: left;
+}
+.bikemaintain-para{
+    padding-left: 20px;
+    padding-bottom: 20px;
+    width: 330px;
+    text-align: justify;
+}
+
+
+
+@media screen and (max-width: 768px) {
+    .blog-item {
+        flex-direction: column;
+        align-items: center;
+        padding: 15px 10px;
+    }
+
+    .ibw-blog-img,
+    .helmet-blog-img,
+    .bikemaintain-blog-img {
+        width: 100%;
+        height: auto;
+        padding: 10px;
+    }
+
+    .ibw-head,
+    .helmet-head,
+    .bikemaintain-head,
+    .ibw-para,
+    .helmet-para,
+    .bikemaintain-para {
+        width: 100%;
+        padding: 10px 20px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .blog-container {
+        padding-top: 70px;
+    }
+
+    .blog-container h1 {
+        padding-left: 15px;
+        font-size: 24px;
+    }
+
+    .blog-item {
+        padding: 10px 5px;
+    }
+
+    .ibw-blog-img,
+    .helmet-blog-img,
+    .bikemaintain-blog-img {
+        padding: 5px;
+    }
+}
+
+
+
+
+
+

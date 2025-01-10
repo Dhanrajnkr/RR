@@ -1,0 +1,52 @@
+.ibw-top{
+    display: flex;
+    text-align: left;
+    
+    flex-direction: row;
+    margin-top: 100px;
+}
+.ibw-top img{
+    margin-top: 10px;
+    width: 600px;
+    height: 300px;
+    align-items: center;
+    margin-left: 50px;
+}
+.ibw-top h1{
+  margin-left: 20px; 
+  padding-right: 30px;
+}
+.ibw-top h1 p{
+    font-size: 16px;  
+    font-weight: 300;
+    
+  }
+  .ibw-explore p{
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-right: 20px;
+    
+  }
+  .ibw-explore span{
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 20px;
+  }
+  .ibw-explore h2{
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  .ibw-explore img{
+    margin-left: 20px;
+    margin-top: 20px;
+    width: 600px;
+    height: 200px;
+    align-items: center;
+    margin-left: 30px;
+  }
+  .ibw-explore-ex{
+    
+    margin-bottom: 20px;
+    width: 60%;
+  }

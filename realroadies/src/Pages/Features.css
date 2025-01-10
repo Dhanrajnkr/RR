@@ -1,0 +1,267 @@
+
+.feature-heading{
+    font-size: 40px;
+    font-weight: 600;
+    color: #FFDD00;
+    padding-top: 80px;
+    padding-left: 20px;
+}
+     
+.feature-ex{
+    font-size: 16px;
+    font-weight: 400;
+    color: #ffffff;
+    position: relative;
+    padding-left: 40px;
+    width: 80%;
+    
+}
+.feature-eximg{
+    width: 200px;
+    display: flex;
+    position: relative;
+    position: absolute;
+    float: right;
+    padding-top: 10px;
+    bottom: 200px;
+    margin: 20px;
+    left: 870px;
+    
+}
+
+.feature-specification1{
+    gap: 20px;
+    display: flex;
+    flex-direction: row;
+    padding-top: 40px;
+    padding-left: 20px;
+    padding-right: 100px;
+    padding-bottom: 20px;
+    
+}
+.connect-riders-img{
+    width: 50px;
+
+    border-radius: 400px;
+
+}
+.connect-riders{
+    
+    padding: 20px;
+    
+    position: relative;
+    top: 20px;
+    left: 40px;
+    
+    width: 40%;
+    border: #ffffff solid 1px;
+    border-radius: 10px;
+    align-items: center;
+    text-align: center;
+}
+.plan-ride-img{
+    width: 50px;
+}
+.plan-ride{
+    
+    padding: 20px;
+    padding-bottom: 20px;
+    position: relative;
+    top: 20px;
+    left: 40px;
+    width: 40%;
+    border: #ffffff solid 1px;
+    border-radius: 10px;
+    align-items: center;
+    text-align: center;
+}
+.invite-bikers-img{
+    width: 50px;
+}
+.invite-bikers{
+    
+    padding: 20px;
+    padding-bottom: 20px;
+    position: relative;
+    top: 20px;
+    left: 40px;
+    width: 40%;
+    border: #ffffff solid 1px;
+    border-radius: 10px;
+    align-items: center;
+    text-align: center;
+}
+
+.feature-specification2{
+    gap: 20px;
+    display: flex;
+    flex-direction: row;
+    padding-top: 40px;
+    padding-left: 20px;
+    padding-right: 100px;
+    padding-bottom: 20px;
+    
+}
+.get-sponsor-img{
+    width: 50px;
+    border-radius: 100px;
+}
+.get-sponsor{
+    
+    padding: 20px;
+    padding-bottom: 20px;
+    position: relative;
+    top: 20px;
+    left: 40px;
+    width: 40%;
+    border: #ffffff solid 1px;
+    border-radius: 10px;
+    align-items: center;
+    text-align: center;
+}
+.sell-rent-img{
+    width: 50px;
+}
+.sell-rent{
+    
+    padding: 20px;
+    padding-bottom: 20px;
+    position: relative;
+    top: 20px;
+    left: 40px;
+    width: 40%;
+    border: #ffffff solid 1px;
+    border-radius: 10px;
+    align-items: center;
+    text-align: center;
+}
+.planinvite-bikers-img{
+    width: 50px;
+}
+.planinvite-bikers{
+    
+    padding: 20px;
+    padding-bottom: 20px;
+    position: relative;
+    top: 20px;
+    left: 40px;
+    width: 40%;
+    border: #ffffff solid 1px;
+    border-radius: 10px;
+    align-items: center;
+    text-align: center;
+}
+.playstore-img-feature{
+    display: flex;
+    position: relative;
+    left: 300px;
+    width: 200px;
+    top:30px;
+
+}
+.appstore-img-feature{
+    display: flex;
+    position: relative;
+    left: 550px;
+    bottom: 60px;
+    width: 200px;
+
+}
+
+/* For tablets and medium screens */
+@media screen and (max-width: 1024px) {
+    .feature-heading {
+        font-size: 32px;
+        position: relative;
+        padding-top: 80px;
+    }
+
+    .feature-eximg {
+        display: none;
+    }
+
+    .feature-specification1,
+    .feature-specification2 {
+        flex-direction: column;
+        padding-right: 0px;
+       padding-left: 100px;
+    }
+
+    .connect-riders,
+    .plan-ride,
+    .invite-bikers,
+    .get-sponsor,
+    .sell-rent,
+    .planinvite-bikers {
+        width: 80%;
+        left: 20px;
+    }
+
+    .playstore-img-feature {
+        left: 150px;
+    }
+
+    .appstore-img-feature {
+        left: 380px;
+    }
+}
+
+/* For mobile devices */
+@media screen and (max-width: 768px) {
+    .feature-heading {
+        font-size: 28px;
+        padding-top: 80px;
+    }
+
+    .feature-ex {
+        width: 100%;
+        padding-left: 20px;
+    }
+
+    .feature-eximg {
+        display: none;
+    }
+
+    .connect-riders,
+    .plan-ride,
+    .invite-bikers,
+    .get-sponsor,
+    .sell-rent,
+    .planinvite-bikers {
+        width: 90%;
+        left: 0;
+    }
+
+    .playstore-img-feature,
+    .appstore-img-feature {
+        position: static;
+        width: 150px;
+        margin: 10px auto;
+    }
+}
+
+/* For small mobile devices */
+@media screen and (max-width: 480px) {
+    .feature-heading {
+        font-size: 24px;
+        padding-top: 80px;
+    }
+
+    .feature-ex {
+        font-size: 14px;
+    }
+    .feature-specification1,
+    .feature-specification2 {
+        flex-direction: column;
+        padding-right: 0px;
+       padding-left: 30px;
+    }
+    .connect-riders-img,
+    .plan-ride-img,
+    .invite-bikers-img,
+    .get-sponsor-img,
+    .sell-rent-img,
+    .planinvite-bikers-img {
+        width: 40px;
+    }
+}

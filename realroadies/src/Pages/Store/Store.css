@@ -1,0 +1,299 @@
+.store-container{
+    
+    
+    margin-top: 100px;
+}
+/* .store-img{
+    height: 75vh;
+    width: 40%;
+    position: fixed;} */
+
+.select-area{
+    display: flex;
+    flex-direction: row;
+    
+    justify-content: center;
+    position: relative;
+    padding-top: 20px;
+    gap: 100px;
+}
+.bike-area{
+  display: block;
+  pointer-events: all;
+}
+.bike-area:hover{
+    transform: scale(1.05);
+    transition: all 0.3s ease;
+  cursor: pointer;
+  color:#FFDD00;
+
+}
+
+
+
+
+
+
+  .store-bikebtn-area{
+    display: flex;
+    flex-direction: column;
+    left: 420px;
+    justify-content: center;
+    position: relative;
+    
+    padding-top: 20px;
+    padding-bottom: 40px;
+    gap: 30px;
+    width: 20%;
+    ;
+  }
+  .buy-btn{
+  position: relative;
+  height: 70px;
+  color: #FFDD00;
+  font-weight: 1000;
+  background-color: #262626;
+  border: #262626 1px solid;
+  border-radius: 5px;
+  }
+  
+  
+  .buy-btn a{
+    position: relative;
+    right: 20px;
+  }
+  .buy-btn span{
+    position: relative;
+    font-weight: 500;
+    left: 22px;
+  }
+  .buy-btn-img{
+    position: absolute;
+    width: 50px;
+    top: 30px;
+    left: 20px;
+    border-radius: 5px;
+
+  }
+  .rent-btn{
+    position: relative;
+    height: 70px;
+    color: #FFDD00;
+    font-weight: 1000;
+    background-color: #262626;
+    border: #262626 1px solid;
+    border-radius: 5px;
+    }
+    
+    .rent-btn a{
+      position: relative;
+      right: 20px;
+    }
+    .rent-btn span{
+      font-weight: 500;
+      position: relative;
+      left: 25px;
+    }
+    .rent-btn-img{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    top: 10px;
+    left: 20px;
+    border-radius: 5px;}
+  .sell-btn{
+    position: relative;
+    height: 70px;
+    color: #FFDD00;
+    font-weight: 1000;
+    background-color: #262626;
+    border: #262626 1px solid;
+    border-radius: 5px;
+    }
+    .sell-btn a{
+      position: relative;
+      font-size: 16px;
+      left: 15px;
+    }
+    .sell-btn span{
+      position: relative;
+      font-weight: 500;
+      left: 15px;
+    }
+    .sell-bike-img.png{
+      position: absolute;
+    width: 50px;
+    top: 10px;
+    left: 20px;
+    border-radius: 5px;
+
+    }
+    .buy-btn:active,.rent-btn:active,.sell-btn:active {
+      background-color: #0E0E10;
+      color: #FFDD00;
+      transform: scale(0.98);
+      transition: all 0.1s ease;
+    }
+      .store-accssoriesbtn-area{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        position: relative;
+        left: 420px;
+        padding-top: 20px;
+        padding-bottom: 40px;
+        gap: 30px;
+        width: 23%;
+        ;
+      }
+      .acc-buy-btn{
+      position:relative;
+      height: 70px;
+      color: #FFDD00;
+      font-weight: 1000;
+      background-color: #262626;
+      border: #262626 1px solid;
+      border-radius: 5px;
+      }
+      .acc-buy-btn a{
+        position: relative;
+        right: 20px;
+      }
+      .acc-buy-btn span{
+        position: relative;
+        font-weight: 500;
+        left: 30px;
+      }
+      
+      .buy-btn-img{
+        position: absolute;
+        width: 50px;
+        top: 10px;
+        right: 250px;
+        border-radius: 5px;
+    
+      }
+      .acc-sell-btn{
+        position: relative;
+        height: 70px;
+        color: #FFDD00;
+        font-weight: 1000;
+        background-color: #262626;
+        border: #262626 1px solid;
+        border-radius: 5px;
+        }
+        .acc-sell-btn a{
+          position: relative;
+          font-size: 16px;
+          left: 42px;
+        }
+        .acc-sell-btn span{
+          position: relative;
+          font-weight: 500;
+          left: 30px;
+        }
+        .acc-rent-btn{
+          position: relative;
+          height: 70px;
+          color: #FFDD00;
+          font-weight: 1000;
+          background-color: #262626;
+          border: #262626 1px solid;
+          border-radius: 5px;
+          }
+          .acc-rent-btn a{
+            position: relative;
+            right: 20px;
+          }
+          .acc-rent-btn span{
+            position: relative;
+            font-weight: 500;
+            left: 30px;
+          }
+          .acc-buy-btn:active,.acc-rent-btn:active,.acc-sell-btn:active {
+            background-color: #0E0E10;
+            color: #FFDD00;
+            transform: scale(0.98);
+            transition: all 0.1s ease;
+          }
+
+
+          @media screen and (max-width: 1024px) {
+            .select-area {
+              gap: 50px;
+            }
+            .store-bikebtn-area,
+            .store-accssoriesbtn-area {
+              left: 0;
+              width: 80%;
+              margin: 0 auto;
+            }
+          }
+          
+          @media screen and (max-width: 768px) {
+            .select-area {
+              flex-direction: row;
+              gap: 30px;
+              align-items: center;
+            }
+            
+            .store-bikebtn-area,
+            .store-accssoriesbtn-area {
+              width: 90%;
+            }
+          
+            .buy-btn,
+            .rent-btn,
+            .sell-btn,
+            .acc-buy-btn,
+            .acc-rent-btn,
+            .acc-sell-btn {
+              height: 60px;
+            }
+          
+            .buy-btn-img,
+            .rent-btn-img,
+            .sell-bike-img.png {
+              width: 40px;
+              top: 10px;
+              left: 10px;
+            }
+          }
+          
+          @media screen and (max-width: 480px) {
+            .store-container {
+              margin-top: 60px;
+            }
+          .select-area{
+            font-size: 14px;
+            display: flex;
+            flex-direction:row;
+            padding-top: 60px;
+          }
+            .store-bikebtn-area,
+            .store-accssoriesbtn-area {
+              width: 50%;
+              gap: 20px;
+            }
+          
+            .buy-btn span{
+              font-size: 14px;
+              left: 25px;
+            }
+            
+            .rent-btn span{
+              font-size: 14px;
+              left: 30px;
+            }
+            .sell-btn span{
+              font-size: 14px;
+              left: 15px;
+            }
+            .acc-buy-btn span,
+            .acc-rent-btn span,
+            .acc-sell-btn span {
+              font-size: 14px;
+              left: 35px;
+            }
+            
+          }
