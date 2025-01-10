@@ -1,7 +1,6 @@
 import React, { useState } from 'react';
 import './ListBikeDataEnter.css';
 
-
 const ListBikeDataEnter = () => {
   const [selectedImage, setSelectedImage] = useState(null);
   const [showRentPrice, setShowRentPrice] = useState(false);
@@ -26,8 +25,9 @@ const ListBikeDataEnter = () => {
     description: '',
     rentPrice: '',
     sellPrice: '',
-    checkbox: '',
+    checkbox: ''
   });
+  const [showThankYou, setShowThankYou] = useState(false);
 
   const manufacturers = [
     'Honda', 'Yamaha', 'Suzuki', 'Royal Enfield', 'KTM', 'Bajaj', 'TVS', 'Hero', 'BMW', 'Kawasaki', 'Ather', 'Ola', 'Others'
@@ -107,8 +107,13 @@ const ListBikeDataEnter = () => {
     setShowRentPrice(false);
     setShowSellPrice(false);
 
-    // Navigate to the buy page
-    window.location.href = '/buy';
+    
+    setShowThankYou(true);
+
+    
+    setTimeout(() => {
+     
+    }, 2000); 
   };
 
   return (
@@ -134,7 +139,7 @@ const ListBikeDataEnter = () => {
 
       <form className="bikedetail-info" onSubmit={handleSubmit}>
         <select
-          className="bike-input"
+          className="bike-input-select"
           value={selectedManufacturer}
           onChange={(e) => setSelectedManufacturer(e.target.value)}
         >
@@ -252,6 +257,12 @@ const ListBikeDataEnter = () => {
           List Your Bike
         </button>
       </form>
+
+      {showThankYou && (
+        <div className="thank-you-message">
+          listing successful!
+        </div>
+      )}
     </div>
   );
 };

@@ -52,12 +52,42 @@
     grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
     gap: 25px;
   }
+  .header-container {
+    position: absolute;
+    top: 75px;
+    left: 900px;
+    float: right;
+    z-index: 1000;
+    text-decoration: none;
+  }
   
+  .list-bike-button {
+    background-color: #FFDD00;
+    color: rgb(7, 7, 7);
+    border: none;
+    text-decoration: none;
+    padding: 10px 24px;
+    border-radius: 25px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+    transition: transform 0.2s ease;
+  }
+  
+  .list-bike-button:hover {
+    transform: scale(1.05);
+    background-color: #cab006;
+  }
   .bike-card {
     border: 1px solid #ddd;
+    margin: 20px;
     border-radius: 8px;
     overflow: hidden;
-    background: white;
+    background: rgb(74, 74, 74);
     box-shadow: 0 2px 4px rgba(0,0,0,0.1);
     transition: transform 0.2s;
   }
@@ -67,8 +97,13 @@
   }
   
   .bike-image-container {
-    height: 200px;
+    width: 230px;
+    height: 170px;
+    border-radius: 8px 8px 8px 8px;
+    margin: 10px;
     overflow: hidden;
+    position: relative;
+    left: 25px;
   }
   
   .bike-image {
@@ -78,39 +113,40 @@
   }
   
   .bike-info {
-    padding: 15px;
+    padding: 5px;
   }
   
   .bike-info h3 {
-    margin: 0 0 15px 0;
-    color: #333;
+    margin-left: 10px;
+    color: #080808;
     font-size: 1.2rem;
   }
   
   .bike-details {
-    margin-bottom: 15px;
+    margin-bottom: 10px;
   }
   
   .bike-details p {
-    margin: 8px 0;
-    color: #666;
+    margin-left: 10px;
+    color: #050505;
     font-size: 0.95rem;
   }
   
   .description {
     font-size: 0.9rem;
-    color: #555;
+    color: #070707;
     margin-top: 10px;
     line-height: 1.4;
   }
   
   .delete-button {
-    width: 100%;
-    padding: 8px;
+    width: 30%;
+    padding: 10px;
+    align-items: center;
     background-color: #ff4444;
     color: white;
     border: none;
-    border-radius: 4px;
+    border-radius: 15px;
     cursor: pointer;
     transition: background-color 0.3s;
   }
@@ -118,7 +154,21 @@
   .delete-button:hover {
     background-color: #cc0000;
   }
+  .edit-button {
+    background-color: #2196F3;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+  }
   
+  .edit-button:hover {
+    background-color: #1976D2;
+  }
   @media (max-width: 768px) {
     .bikes-grid {
       grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));

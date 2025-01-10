@@ -10,6 +10,7 @@ import Contact from './Pages/Contact'
 import Ibw from './Pages/Blog/Ibw/Ibw'
 import ListBikesAdd from './Pages/Store/Bike/ListYourBike/ListBikesAdd'
 import ListBikeDataEnter from './Pages/Store/Bike/ListYourBike/ListBikeDataEnter'
+import BuyBike from './Pages/Store/Bike/Buy/BuyBike'
 import Footer from './Components/Footer'
 const App = () => {
   return (
@@ -25,6 +26,7 @@ const App = () => {
         <Route path="/ibw" element={<Ibw />} />
         <Route path="/listbikesadd" element={<ListBikesAdd/>}/>
         <Route path="/listbikedataenter" element={<ListBikeDataEnter/>}/>
+        <Route path="/buybike" element={<BuyBike/>}/>
       </Routes>
       <Footer/>
     </div>

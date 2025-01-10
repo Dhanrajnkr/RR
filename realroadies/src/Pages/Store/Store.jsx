@@ -14,7 +14,7 @@ const Store = () => {
     setShowButtons(false);
   }
   const handleBuyClick = () => {
-    navigate('/buybikes');
+    navigate('/buybike');
   }
   const handleSellClick = () => {
     navigate('/listbikesadd');
